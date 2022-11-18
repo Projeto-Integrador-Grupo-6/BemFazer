@@ -70,6 +70,7 @@ public class UsuarioService {
 			   gerarBasicToken(usuarioLogin.get().getUsuario(),
 			   usuarioLogin.get().getSenha()));
 			   usuarioLogin.get().setSenha(usuario.get().getSenha());
+			   usuarioLogin.get().setTipoUser(usuario.get().getTipoUser());
 			   
 			   return usuarioLogin;
   
